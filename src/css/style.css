@@ -1,0 +1,158 @@
+body {
+    background: url(../images/pattern-background-desktop.svg) repeat-x;
+    background-color: var(--bg-color);
+    font-family: 'Red Hat Display', sans-serif;
+    color: var(--font-color);
+    
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 90vh;
+
+}
+
+.card  {
+    background-color: white;
+    max-width: 330px;
+    height: 65vh;
+    
+    border-radius: 15px;
+
+    box-shadow: 2px 1px 25px black;
+}
+
+.card .img-music {
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.card .content {
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card .content .summary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 5px;
+}
+
+.card .content .summary .title {
+    font-size: 21px;
+    font-weight: 900;
+
+    margin-bottom: 9px;
+}
+
+.card .content .summary .description {
+    text-align: center;
+    font-size: 13px;
+    color: var(--description-color);
+    font-weight: 500;
+    line-height: 19px;
+
+    margin-bottom: 10px;
+}
+
+.card .content .plan {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: var(--plan-bg);
+    border-radius: 15px;
+
+    padding: 18px;
+
+    position: relative;
+
+    margin-top: 7px;
+}
+
+.card .content .plan .planPrice {
+    display: flex;
+}
+
+.card .content .plan .planPrice .icon-music {
+    background-color: var(--music-bg);
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    
+    margin-right: 13px;
+}
+
+
+.card .content .plan .selectedPlan .anualPlan {
+    font-weight: 900;
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+
+.card .content .plan .planPrice .selectedPlan .price {
+    color: var(--description-color);
+    font-size: 13px;
+}
+
+.card .content .plan .change {
+    color: var(--change);
+    text-decoration: underline;
+    font-weight: 900;
+    font-size: 11px;
+
+    transition: 0.2s ease-in;
+}
+
+.card .content .plan .change:hover {
+    color: var(--change-hover);
+    text-decoration: none;
+    transition: 0.5s ease-out;
+}
+
+.card .content .proceed, .cancel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 20px;
+}
+
+.card .content .proceed {
+    background-color: var(--bg-proceed);
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.5s ease-out;
+}
+
+.card .content .proceed:hover{
+    background-color: var(--bg-proceed-hover);
+    transition: 0.3s ease-in;
+}
+
+.card .content .proceed a{
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.card .content .cancel a{
+    color: var(--description-color);
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.card .content .cancel a:hover{
+    color: var(--font-color);
+    font-weight: 900;
+    transition: 0.4s ease-in-out;
+}
+

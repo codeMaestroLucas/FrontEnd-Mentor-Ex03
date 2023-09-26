@@ -1,0 +1,13 @@
+@media(max-width: 415px) {
+    .card .content {
+        padding: 3px;
+    }
+ 
+    .card .content .plan {
+        line-height: 13px;
+    }
+
+    .card .content .plan .selectedPlan .anualPlan {
+        margin-top: 5px;
+    }
+}

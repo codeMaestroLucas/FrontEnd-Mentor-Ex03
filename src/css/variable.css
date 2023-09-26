@@ -1,0 +1,16 @@
+:root {
+    --font-color: hsl(223, 47%, 23%);
+    --description-color: hsl(224, 23%, 55%);
+
+    --music-bg: hsl(225, 100%, 94%);
+    
+    --plan-bg: hsl(230, 75%, 98%);
+    
+    --bg-proceed: hsl(245, 75%, 52%);
+    --bg-proceed-hover: hsl(244, 77%, 68%);
+    
+    --change:hsl(246, 34%, 50%);
+    --change-hover: hsl(246, 50%, 67%);
+
+    --bg-color: hsl(225, 100%, 98%);
+}
